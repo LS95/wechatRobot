@@ -8,18 +8,17 @@
 
 然后需要安装依赖库 
 
-pip  install itchat
-pip  install requests
-
+pip  install itchat  requests
 
 ## 0x01 DIY修改
 
-代码中nickName为机器人名称   
-phoneNumber为开发者的联系方式
-可以DIY修改 
+代码中nickName为机器人名称     
+phoneNumber为开发者的联系方式  
+可以DIY修改   
 
-此处调用了图灵机器人的接口，需要到[图灵机器人](http://www.tuling123.com)官网注册账号，新建机器人，获取其apikey的值（十六进制的字符串），然后填入50行处的key的后面。
-
+此处调用了图灵机器人的接口，需要到[图灵机器人](http://www.tuling123.com)官网注册账号  
+新建机器人，获取其apikey的值（十六进制的字符串），然后填入50行处的key的后面。  
+"key":"XXXXXXXXXXXXXXXXXXXXXXX",此处XXXXXXXXXXX修改为自己机器人apikey值
 
 ## 0x02 使用
 修改完毕后 使用

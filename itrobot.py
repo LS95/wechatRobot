@@ -100,9 +100,7 @@ def ec():
     print('exit')
     itchat.send(u'机器人下线 %s ' % getCurrrentSystemTime(), toUserName='filehelper')#发送内容
 
-
 newInstance.auto_login(enableCmdQR=2,hotReload=True, statusStorageDir="newInstance.pkl")
-
 
 try:
     newInstance.run(debug=True)
